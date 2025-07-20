@@ -3,7 +3,7 @@ import { View, Text, TextInput, Button, StyleSheet, Alert, SafeAreaView, ScrollV
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Note from './components/Note';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { TRootStackParamList } from './App';
+import { TRootStackParamList } = './App';
 
 // For demonstration, a simple (non-cryptographic) hash.
 // In a real app, use a strong cryptographic hash function and potentially a more robust key derivation.
